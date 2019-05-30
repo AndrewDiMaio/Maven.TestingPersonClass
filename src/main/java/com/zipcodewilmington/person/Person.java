@@ -8,28 +8,38 @@ public class Person {
     private int age;
 
     public Person() {
+        name = "";
+        age = Integer.MAX_VALUE;
+
     }
 
     public Person(int age) {
+        this.age=age;
     }
 
     public Person(String name) {
+        this.name = name;
     }
 
     public Person(String name, int age) {
+        this.name = "Leon";
+        this.age = 5;
     }
 
     public void setName(String name) {
+        this.name="Leon";
+
     }
 
     public void setAge(int age) {
+        this.age = 5;
     }
 
     public String getName() {
-        return null;
+        return name;
     }
 
     public Integer getAge() {
-        return null;
+        return age;
     }
 }
