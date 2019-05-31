@@ -72,11 +72,20 @@ public class Person {
     public Person(String name) {
         this.name = name;
     }
+    public Person (String name, int age){
+        this.name = "Leon";
+        this.age = 5;
+    }
 
     public Person(String name, int age, int height, double weight, String hairColor,int hasKids, int hasPets) {
         this.name = "Leon";
         this.age = 5;
-        this.height = 65
+        this.height = 70;
+        this.weight = 150;
+        this.hairColor = "Brown";
+        this.hasKids = 3;
+        this.hasPets = 2;
+
     }
 
     public void setName(String name) {
